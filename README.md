@@ -14,13 +14,5 @@ g++ -std=c++11 ClinicSystem.cpp -o clinic
 Chạy:
 ./clinic
 
-Gồm các lớp:
-- Human (abstract)
-- Patient (kế thừa Human)
-- ChronicPatient (kế thừa Patient; override preScheduleCheck và needsFrequentFollowUp)
-- Doctor (kế thừa Human)
-- Appointment
-- Clinic (quản lý bệnh nhân, bác sĩ, lịch hẹn)
-
 Lưu ý:
 - Code viết cho mục đích học tập; xử lý lỗi cơ bản qua cout.
