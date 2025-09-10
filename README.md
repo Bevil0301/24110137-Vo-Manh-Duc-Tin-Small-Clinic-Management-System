@@ -7,8 +7,10 @@ Mô tả:
 
 Yêu cầu build:
 - C++11 hoặc mới hơn
+  
 Biên dịch:
 g++ -std=c++11 ClinicSystem.cpp -o clinic
+
 Chạy:
 ./clinic
 
